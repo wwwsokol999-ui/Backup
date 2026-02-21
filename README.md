@@ -35,3 +35,5 @@ rsync -a --delete --checksum \
 ```cron
 0 1 * * * /usr/local/bin/backup_home.sh || logger -t backup_home "ERROR: backup failed (exit $?)"
 ```
+![Снимок](Снимок.PNG)
+![Снимок1](Снимок1.PNG)
